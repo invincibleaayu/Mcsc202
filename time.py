@@ -27,7 +27,7 @@ def height_and_velocity(t):
     h=ho+(vo*t)-((1/2)*g*t**2)
     #and the velocity is 
     v=vo-(g*t)
-    print(h,v)
+    print("The height and velocity at time {} is {} and {} respectively.".format(t,h,v))
 
 height_and_velocity(0.5)
 height_and_velocity(2.0)
