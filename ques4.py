@@ -19,4 +19,3 @@ average_velocity=[]
 for t in range(0,(len(time)-1)):
     average_velocity.append("%.2f"%(del_y/(float(time[t+1])-float(time[t]))))
 print("The average velocity is ",average_velocity)
-print(len(average_velocity))
