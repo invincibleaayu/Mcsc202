@@ -20,7 +20,8 @@
 
 def height_and_velocity(t):
     #we know we have given value as
-    g=-9.8                                       #acceleration due to gravity in m/s^2
+    g=-9.8                                      #acceleration due to gravity in m/s^2
+                                                #-ve sign is accleration against gravity
     ho=1.2                                      #initial height in m
     vo=5.4                                      #initial velocity in m/s
     #now we calculate height and velocity at a given time 
