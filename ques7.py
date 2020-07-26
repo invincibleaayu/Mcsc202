@@ -1,6 +1,5 @@
 # Write a program to calculate the sum of natural n natural numbers 1 + 2 + ⋯ + n.
-# Calculate the sum when n = 10
-
+# Calculate the sum when the n = 10
 number=int(input("Please enter the number upto which you want find the sum:"))
 #now we calculate the sum
 def calc_sum(number):
