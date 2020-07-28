@@ -5,9 +5,9 @@
 # that the curve you plot appears smooth. Label the axes x and y.
 import matplotlib.pyplot as plt
 import numpy as np
-x=np.linspace(-3,3,100)
+x=np.linspace(-3,3,100) #creating numpy array 
 y=3*(x**2)
-plt.plot(x,y,"r")
+plt.plot(x,y,"r")       #ploting the graph in red color
 plt.xlabel("X-axis")
 plt.ylabel("Y-axis")
 plt.title("Graph plot of 3x^2")
