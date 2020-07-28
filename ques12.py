@@ -14,5 +14,6 @@ ax.plot3D(x,y,z,"blue")
 ax.set_xlabel("X-axis")
 ax.set_ylabel("Y-axis")
 ax.set_zlabel("Z-axis")
+ax.set_title("Space curve")
 plt.show()
 
